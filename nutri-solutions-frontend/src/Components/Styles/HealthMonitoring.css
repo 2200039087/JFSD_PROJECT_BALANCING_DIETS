@@ -1,0 +1,94 @@
+/* Main Container */
+.health-monitoring-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    color:#0073e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #0073e6;
+    margin-bottom: 20px;
+  }
+  
+  /* Sections */
+  .health-metrics, .daily-activity, .progress-tracking, .report-download {
+    margin-bottom: 30px;
+    color: #0073e6;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Metrics & Activities */
+  .metric, .activity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#0073e6;
+    margin-bottom: 10px;
+  }
+  
+  .metric label, .activity label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .metric input, .activity input {
+    padding: 8px;
+    width: 100px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .metric input:focus, .activity input:focus {
+    border-color: #0073e6;
+    outline: none;
+  }
+  
+  /* Progress Tracking */
+  .progress-charts p {
+    color: #777;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Report Download Button */
+  .download-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #0073e6;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .health-monitoring-container {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
+  

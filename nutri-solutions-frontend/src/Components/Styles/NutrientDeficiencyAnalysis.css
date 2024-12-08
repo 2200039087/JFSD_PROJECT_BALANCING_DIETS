@@ -1,0 +1,99 @@
+/* General Styling */
+.analysis-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  h2 {
+    color: #e74c3c;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  textarea, input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .results-container {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  h3, h4 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p, ul {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Deficiency list styling */
+  ul {
+    list-style: disc inside;
+    margin-top: 0;
+    padding-left: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .analysis-container {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    .submit-button {
+      font-size: 1rem;
+    }
+  }
+  
